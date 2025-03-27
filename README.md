@@ -7,6 +7,15 @@ Importance: Understanding mental health issues in the tech industry can help imp
 To begin with, the OSMI survey dataset was loaded into the Python environment, and an initial examination of the data was performed. This step included displaying the first few rows of the dataset to understand its structure and the type of information it contained. Key features relevant to the analysis, such as demographic details, mental health history, work environment, and support structures, were identified. These features were used to explore the trends and correlations within the data, offering insights into the mental health landscape in the tech industry.
 # Data Preprocessing
 Next, data preprocessing was carried out to ensure the dataset was clean and ready for analysis. Missing values were handled by removing rows with essential data points missing in the Excel spreadsheet, and typos and other errors in the data were corrected.
+[5 rows x 24 columns]
+Column Names: Index(['Age', 'Gender', 'Country', 'family_history', 'treatment',
+       'work_interfere', 'self_employed', 'remote_work', 'no_employees',
+       'tech_company', 'benefits', 'care_options', 'wellness_program',
+       'seek_help', 'anonymity', 'leave', 'mental_health_consequence',
+       'phys_health_consequence', 'coworkers', 'supervisor',
+       'mental_health_interview', 'phys_health_interview',
+       'mental_vs_physical', 'obs_consequence'],
+      dtype='object')
 # Explanatory Data Analysis
 Feature Selection for Analyzing Mental Health Trends in the Tech Industry
 For this project, features that provide insights into demographic information, work environment, and support structures were selected. The key features considered were:
