@@ -44,14 +44,15 @@ The next step involved defining the factors and indicators that are relevant to 
 # Chi-square Tests and Count Plots
 To analyze the relationship between each demographic factor and mental health indicator, I performed chi-square tests for the categorical variables (gender and Country). The chi-square test is a statistical method used to determine if there is a significant association between two categorical variables. For each combination of demographic factor and mental health indicator, I calculated the chi-square statistic and p-value. 
 
-**Chi-square test for Gender and treatment**
-Chi2: 35.17977721574272, p-value: 3.006292294799283e-09
-**Chi-square test for Gender and work_interfere**
-Chi2: 13.967872481856382, p-value: 0.0029492115846069668
-**Chi-square test for Country and treatment**
-Chi2: 18.233131570634363, p-value: 0.03256313846821809
-**Chi-square test for Country and work_interfere**
-Chi2: 21.32470650896996, p-value: 0.7708493271629728
+**Chi-square test for Gender and treatment**: Chi2: 35.17977721574272, p-value: 3.006292294799283e-09
+
+**Chi-square test for Gender and work_interfere**: Chi2: 13.967872481856382, p-value: 0.0029492115846069668
+
+**Chi-square test for Country and treatment**: Chi2: 18.233131570634363, p-value: 0.03256313846821809
+
+**Chi-square test for Country and work_interfere**: Chi2: 21.32470650896996, p-value: 0.7708493271629728
+
+The chi-square tests reveal significant associations between Gender and both mental health indicators—treatment (Chi2: 35.18, p < 0.00000001) and work interference (Chi2: 13.97, p = 0.00295)—indicating that gender strongly influences treatment-seeking behavior and how mental health impacts work, with a stronger effect for treatment. There’s also a significant but weaker association between Country and treatment (Chi2: 18.23, p = 0.0326), suggesting country-level differences in treatment-seeking, but no association between Country and work interference (Chi2: 21.32, p = 0.7708), implying work interference is consistent across countries.
 
 Additionally, I created count plots using Seaborn to visualize the distribution and relationship between these categorical factors and indicators. This helped in visually understanding the data patterns and verifying the statistical results.
 
@@ -73,8 +74,15 @@ Correlation Heatmap
 
 
 Finally, I encoded the categorical variables into numerical codes to calculate the correlation matrix, which measures the strength and direction of the relationships between the variables. This step involved converting categorical data into numerical values that can be used in correlation calculations. I then plotted a heatmap to visualize these correlations, which provided a comprehensive overview of how demographic factors are related to mental health indicators. The heatmap used color coding to represent correlation coefficients, making it easier to identify strong and weak relationships between variables.
+
+![image](https://github.com/user-attachments/assets/54fe84a5-0146-4f0e-813a-21a1325f1629)
+
+![image](https://github.com/user-attachments/assets/8a67e673-9b2b-4d54-a186-c42eea07607c)
+
+
+# Conclusion
 By following these steps, I performed a detailed analysis of how demographic factors such as age, gender, and country impact mental health indicators in the dataset. The combination of statistical tests and visualizations provided a thorough understanding of the data, highlighting significant patterns and correlations.
-These steps together provided a thorough analysis of the impact of demographic factors on mental health, leveraging both statistical tests and visualizations to derive and communicate insights from the data.
+
 
 
 
