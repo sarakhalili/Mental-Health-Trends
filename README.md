@@ -7,6 +7,7 @@ Importance: Understanding mental health issues in the tech industry can help imp
 To begin with, the OSMI survey dataset was loaded into the Python environment, and an initial examination of the data was performed. This step included displaying the first few rows of the dataset to understand its structure and the type of information it contained. Key features relevant to the analysis, such as demographic details, mental health history, work environment, and support structures, were identified. These features were used to explore the trends and correlations within the data, offering insights into the mental health landscape in the tech industry.
 # Data Preprocessing
 Next, data preprocessing was carried out to ensure the dataset was clean and ready for analysis. Missing values were handled by removing rows with essential data points missing in the Excel spreadsheet, and typos and other errors in the data were corrected.
+
 [5 rows x 24 columns]
 Column Names: Index(['Age', 'Gender', 'Country', 'family_history', 'treatment',
        'work_interfere', 'self_employed', 'remote_work', 'no_employees',
@@ -16,6 +17,7 @@ Column Names: Index(['Age', 'Gender', 'Country', 'family_history', 'treatment',
        'mental_health_interview', 'phys_health_interview',
        'mental_vs_physical', 'obs_consequence'],
       dtype='object')
+      
 # Explanatory Data Analysis
 Feature Selection for Analyzing Mental Health Trends in the Tech Industry
 For this project, features that provide insights into demographic information, work environment, and support structures were selected. The key features considered were:
@@ -37,12 +39,6 @@ For this project, features that provide insights into demographic information, w
 6.	leave: Ease of taking leave.
 
 The next step involved defining the factors and indicators that are relevant to the analysis. For analyzing demographic factors, I identified three key variables: age, gender, and Country. These factors provide insight into the respondents' background. Additionally, two mental health indicators were chosen: treatment (whether the respondent sought treatment for mental health conditions) and work_interfere (whether mental health issues interfere with work). These indicators help in assessing the mental health status of respondents and their perceived impact on work.
-![image](https://github.com/user-attachments/assets/34a325ff-ea96-4652-acdd-70a0a9ec3f89)
-![image](https://github.com/user-attachments/assets/5b5fab7a-ee7d-4d86-b14c-c492c7647c30)
-![image](https://github.com/user-attachments/assets/78a70f35-b315-4ffc-aa82-a56ee16912b0)
-![image](https://github.com/user-attachments/assets/f91c2ad8-73e7-4e9f-8f65-488f632a4fe2)
-![image](https://github.com/user-attachments/assets/ca2d1c61-97c4-4445-93d6-51e6dfdcb665)
-
 
 # Chi-square Tests and Count Plots
 To analyze the relationship between each demographic factor and mental health indicator, I performed chi-square tests for the categorical variables (gender and Country). The chi-square test is a statistical method used to determine if there is a significant association between two categorical variables. For each combination of demographic factor and mental health indicator, I calculated the chi-square statistic and p-value. 
@@ -57,6 +53,14 @@ Chi2: 18.233131570634363, p-value: 0.03256313846821809
 Chi2: 21.32470650896996, p-value: 0.7708493271629728
 
 Additionally, I created count plots using Seaborn to visualize the distribution and relationship between these categorical factors and indicators. This helped in visually understanding the data patterns and verifying the statistical results.
+
+![image](https://github.com/user-attachments/assets/34a325ff-ea96-4652-acdd-70a0a9ec3f89)
+![image](https://github.com/user-attachments/assets/5b5fab7a-ee7d-4d86-b14c-c492c7647c30)
+![image](https://github.com/user-attachments/assets/78a70f35-b315-4ffc-aa82-a56ee16912b0)
+![image](https://github.com/user-attachments/assets/f91c2ad8-73e7-4e9f-8f65-488f632a4fe2)
+![image](https://github.com/user-attachments/assets/ca2d1c61-97c4-4445-93d6-51e6dfdcb665)
+
+
 # Histograms for Numerical Data
 For the numerical demographic factor age, I created histograms with KDE (Kernel Density Estimate) plots to visualize its distribution and relationship with the mental health indicators. Histograms provide a visual representation of the frequency distribution of a numerical variable, while KDE plots add a smoothed line that represents the density of the data points. By creating these plots, I could see how age is distributed among respondents and how it correlates with whether they sought treatment or felt that mental health issues interfered with their work.
 Correlation Heatmap
