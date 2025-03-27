@@ -42,7 +42,6 @@ For this project, features that provide insights into demographic information, w
 
 
 ![Dashboard 1](https://github.com/user-attachments/assets/a88ab0f1-e99d-459c-a420-d63ecd92c10c)
-
 ![Dashboard 1(2)](https://github.com/user-attachments/assets/46e2e25f-0705-4237-bfdd-dfc3dbe11896)
 
 
@@ -63,10 +62,10 @@ The chi-square tests reveal significant associations between Gender and both men
 
 Additionally, I created count plots using Seaborn to visualize the distribution and relationship between these categorical factors and indicators. This helped in visually understanding the data patterns and verifying the statistical results.
 
+![image](https://github.com/user-attachments/assets/ca2d1c61-97c4-4445-93d6-51e6dfdcb665)
 ![image](https://github.com/user-attachments/assets/5b5fab7a-ee7d-4d86-b14c-c492c7647c30)
 ![image](https://github.com/user-attachments/assets/78a70f35-b315-4ffc-aa82-a56ee16912b0)
 ![image](https://github.com/user-attachments/assets/f91c2ad8-73e7-4e9f-8f65-488f632a4fe2)
-![image](https://github.com/user-attachments/assets/ca2d1c61-97c4-4445-93d6-51e6dfdcb665)
 
 
 # Histograms for Numerical Data
