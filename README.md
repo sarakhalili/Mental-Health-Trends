@@ -3,6 +3,7 @@ Analyzing Mental Health Trends in the Tech Industry Using OSMI Survey Data
 
 # Introduction
 Objective: To analyze mental health trends in the tech industry using OSMI survey data.
+
 Importance: Understanding mental health issues in the tech industry can help improve workplace policies, provide better support for employees, and reduce stigma around mental health.
 To begin with, the OSMI survey dataset was loaded into the Python environment, and an initial examination of the data was performed. This step included displaying the first few rows of the dataset to understand its structure and the type of information it contained. Key features relevant to the analysis, such as demographic details, mental health history, work environment, and support structures, were identified. These features were used to explore the trends and correlations within the data, offering insights into the mental health landscape in the tech industry.
 # Data Preprocessing
@@ -22,22 +23,28 @@ Column Names: Index(['Age', 'Gender', 'Country', 'family_history', 'treatment',
 # Explanatory Data Analysis
 Feature Selection for Analyzing Mental Health Trends in the Tech Industry
 For this project, features that provide insights into demographic information, work environment, and support structures were selected. The key features considered were:
-## Demographic Features
+### Demographic Features
 1.	Age: Can help identify trends across different age groups.
 2.	Gender: To analyze trends across gender groups.
 3.	Country: To see if there are geographical differences in mental health trends.
-## Work Environment
+### Work Environment
 1.	no_employees: To understand the impact of company size on mental health.
 2.	remote_work: To see if remote work affects mental health.
 3.	tech_company: To compare trends between tech and non-tech companies.
 4.	self_employed: To compare trends between self-employed individuals and those employed by companies.
-## Support Structures
+### Support Structures
 1.	benefits: To analyze the effect of mental health benefits provided by employers.
 2.	care_options: To see if having care options available impacts mental health.
 3.	wellness_program: To analyze the impact of wellness programs.
 4.	seek_help: To see if the encouragement to seek help affects mental health trends.
 5.	anonymity: To determine if anonymity in seeking help impacts mental health.
 6.	leave: Ease of taking leave.
+
+
+![Dashboard 1](https://github.com/user-attachments/assets/a88ab0f1-e99d-459c-a420-d63ecd92c10c)
+
+![Dashboard 1(2)](https://github.com/user-attachments/assets/46e2e25f-0705-4237-bfdd-dfc3dbe11896)
+
 
 The next step involved defining the factors and indicators that are relevant to the analysis. For analyzing demographic factors, I identified three key variables: age, gender, and Country. These factors provide insight into the respondents' background. Additionally, two mental health indicators were chosen: treatment (whether the respondent sought treatment for mental health conditions) and work_interfere (whether mental health issues interfere with work). These indicators help in assessing the mental health status of respondents and their perceived impact on work.
 
