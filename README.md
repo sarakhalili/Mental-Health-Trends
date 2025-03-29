@@ -73,7 +73,6 @@ For the numerical demographic factor age, I created histograms with KDE (Kernel 
 
 ![image](https://github.com/user-attachments/assets/393ee0ef-add3-4660-92a8-5a79126df633)
 ![image](https://github.com/user-attachments/assets/cf3170ee-f7a8-4eaf-adfb-0588fd030a29)
-![image](https://github.com/user-attachments/assets/eeb81340-0632-4fb5-b626-1f40a2aa753e)
 
 Correlation Heatmap
 ![image](https://github.com/user-attachments/assets/fb813f7f-0d47-4bf3-bcd2-d649795555e7)
