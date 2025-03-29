@@ -74,11 +74,11 @@ For the numerical demographic factor age, I created histograms with KDE (Kernel 
 ![image](https://github.com/user-attachments/assets/393ee0ef-add3-4660-92a8-5a79126df633)
 ![image](https://github.com/user-attachments/assets/cf3170ee-f7a8-4eaf-adfb-0588fd030a29)
 
-Correlation Heatmap
-![image](https://github.com/user-attachments/assets/fb813f7f-0d47-4bf3-bcd2-d649795555e7)
-
+# Correlation Heatmap
 
 Finally, I encoded the categorical variables into numerical codes to calculate the correlation matrix, which measures the strength and direction of the relationships between the variables. This step involved converting categorical data into numerical values that can be used in correlation calculations. I then plotted a heatmap to visualize these correlations, which provided a comprehensive overview of how demographic factors are related to mental health indicators. The heatmap used color coding to represent correlation coefficients, making it easier to identify strong and weak relationships between variables.
+
+![image](https://github.com/user-attachments/assets/fb813f7f-0d47-4bf3-bcd2-d649795555e7)
 
 ![image](https://github.com/user-attachments/assets/54fe84a5-0146-4f0e-813a-21a1325f1629)
 
