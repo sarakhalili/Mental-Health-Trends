@@ -13,7 +13,7 @@ The tech industry, known for its rapid pace and high-pressure environments, ofte
 * **Files**:
 
   * `survey.csv`: Raw survey data.
-  * `cleaned_survey.csv`: Preprocessed data after cleaning and formatting.([GitHub][1])
+  * `cleaned_survey.csv`: Preprocessed data after cleaning and formatting.
 
 ## Project Structure
 
